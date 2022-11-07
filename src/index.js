@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Home from './Home';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
+import Cryptos from './pages/Cryptos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/"><Home /></Route>
+        <Route path="/signIn"><SignIn /></Route>
+        <Route path="/signUp"><SignUp /></Route>
+        <Route path="/cryptos"><Cryptos /></Route>
+      </Switch>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
