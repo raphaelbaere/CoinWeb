@@ -8,7 +8,10 @@ This is my personal website project built with React, JavaScript, HTML, and CSS.
 - **Favoriting:** Users can favorite their preferred cryptocoins by clicking on the heart icon, and the selected coins will appear on the home page.
 - **Responsive Design:** The website is designed to be responsive and mobile-friendly, ensuring a seamless user experience across all devices.
 
-## Installation and Usage
+## Usage
+To see it online, you can access it by: [https://coinwebsite.netlify.app/]
+
+## Installation and usage locally
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory and install the required dependencies with the command: `npm install`
